@@ -4,7 +4,7 @@ import Movie from '../Movie/Movie';
 
 const Result = ({inputs}) => {
 
-    const baseUrl = "http://www.omdbapi.com/";
+    const baseUrl = "https://www.omdbapi.com/";
     const apiKey = "&apikey=89082208";
 
     const [movies, setMovies] = useState([]);
